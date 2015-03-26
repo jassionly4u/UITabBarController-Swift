@@ -14,6 +14,7 @@
 		C86A2A571AC3F43F000D6DE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86A2A561AC3F43F000D6DE6 /* Images.xcassets */; };
 		C86A2A5A1AC3F43F000D6DE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86A2A581AC3F43F000D6DE6 /* LaunchScreen.xib */; };
 		C86A2A661AC3F43F000D6DE6 /* SwiftProgrammingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86A2A651AC3F43F000D6DE6 /* SwiftProgrammingTests.swift */; };
+		C86A2A701AC3F672000D6DE6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86A2A6F1AC3F672000D6DE6 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		C86A2A5F1AC3F43F000D6DE6 /* SwiftProgrammingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProgrammingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86A2A641AC3F43F000D6DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C86A2A651AC3F43F000D6DE6 /* SwiftProgrammingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProgrammingTests.swift; sourceTree = "<group>"; };
+		C86A2A6F1AC3F672000D6DE6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		C86A2A4A1AC3F43F000D6DE6 /* SwiftProgramming */ = {
 			isa = PBXGroup;
 			children = (
+				C86A2A6F1AC3F672000D6DE6 /* LoginViewController.swift */,
 				C86A2A4D1AC3F43F000D6DE6 /* AppDelegate.swift */,
 				C86A2A4F1AC3F43F000D6DE6 /* FirstViewController.swift */,
 				C86A2A511AC3F43F000D6DE6 /* SecondViewController.swift */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C86A2A701AC3F672000D6DE6 /* LoginViewController.swift in Sources */,
 				C86A2A521AC3F43F000D6DE6 /* SecondViewController.swift in Sources */,
 				C86A2A4E1AC3F43F000D6DE6 /* AppDelegate.swift in Sources */,
 				C86A2A501AC3F43F000D6DE6 /* FirstViewController.swift in Sources */,
