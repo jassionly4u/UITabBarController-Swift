@@ -39,12 +39,18 @@ class LoginViewController: UIViewController {
 //        VC2.value2 = 40;
         
         //Method 2
-        var tabVC: AnyObject = segue.destinationViewController
-        var vCArr:Array = tabVC.customizableViewControllers!!
-        var first:FirstViewController = vCArr[0] as FirstViewController
-        first.value1 = 30;
-        first.value2 = 40;
-
+//        var tabVC: AnyObject = segue.destinationViewController
+//        var vCArr:Array = tabVC.customizableViewControllers!!
+//        var first:FirstViewController = vCArr[0] as FirstViewController
+//        first.value1 = 30;
+//        first.value2 = 40;
+        
+        //Method 3
+        let tabBarController = segue.destinationViewController as UITabBarController
+        let svc = tabBarController.viewControllers![0] as FirstViewController
+        svc.value1 = 30
+        svc.value2 = 40
+        
 
     }
     
